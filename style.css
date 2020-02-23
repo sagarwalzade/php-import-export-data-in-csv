@@ -1,0 +1,123 @@
+.csv_section {
+    margin-bottom: 15px;
+    width: 99%;
+    float: left;
+    border: 3px solid #428bca;
+    margin-top: 20px;
+    background: white;
+    box-sizing: border-box;
+}
+.export_section {
+    width: 25%;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+    background: #428bca;
+}
+.export_section a {
+    width: 100%;
+    float: left;
+    padding: 15px;
+    background: white;
+    border: 0;
+    font-size: 19px;
+    color: #428bca;
+    font-weight: 800;
+    cursor:pointer;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+}
+.import_section {
+    width: 75%;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+    background: white;
+}
+.import_section label {
+    font-size: 19px;
+}
+.import_section input#file {
+    padding: 10px;
+}
+.import_section button[type='submit'] {
+    border: 2px solid #428bca;
+    background: white;
+    font-size: 16px;
+    padding: 5px 15px;
+    color: #428bca;
+    font-weight: 800;
+    float: right;
+    cursor:pointer;
+    margin-left: 5px;
+}
+
+
+/* show records css */
+
+table#joblisttable {
+    float: left;
+    width: 99%;
+    border-spacing: 0px !important;
+    border-collapse: unset;
+}
+#joblisttable thead {
+    background: #428bca;
+    color: white;
+    font-size: 16px;
+    border: 1px solid #428bca;
+}
+table#joblisttable th {
+    height: 28px;
+    text-align: left;
+    padding: 3px 5px;
+}
+table#joblisttable td {
+    background: white;
+    padding: 7px;
+    border-bottom: 1px solid #f1f1f1;
+}
+h2.cl {
+    width: 99%;
+    float: left;
+}
+.current {
+    color: white;
+    background: #428bca !important;
+}
+.current:hover, .current:focus{
+    color:white;
+}
+.pagin li {
+    display: inline-block;
+}
+ul.pagin {
+    width: 100%;
+    float: left;
+    margin-top: 15px;
+    box-sizing: border-box;
+    padding: 0;
+    text-align: center;
+}
+ul.pagin li a {
+    padding: 5px 10px;
+    float: left;
+    background: white;
+    text-decoration: none;
+}
+.show_records{
+    width:100%;float:left;
+}
+.msg {
+    padding: 5px 15px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    background: white;
+    color: blue;
+    text-align: center;
+    width: fit-content;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 15px;
+}
